@@ -1,3 +1,4 @@
+Installing of python
 Basics Syntax
 Variable
 Data Types
