@@ -1,10 +1,21 @@
 Installing of python:python.org 
 
-Basic Syntax:
+modules - reuse code available in the form of modules.
+pip - is a package manager
+"modules" are installed with the help of "pip".
+
+1.built in module - random , math , os , sys
+2.external module - flask , pyttsx3(speaks) ,  django , pandas
+
+Comments:
+single line: #(ctrl+/)
+multiple lines: """     """
+
+Basic Syntax: first.py-->file name
 print("Hello World!")
 Hello World!
 
-Reserved Words: It represents some meaning or functinality.
+Reserved Words: It represents some meaning or functionality.
  True,False,None
  and, or ,not,is
  if,elif,else
@@ -13,9 +24,7 @@ Reserved Words: It represents some meaning or functinality.
  import,from,as,class,def,pass,global,nonlocal,lambda,del,with
 
 
-DATA TYPES
-
-
+DATA TYPES:
 
 1. Decimal Form (Base 10)
 
@@ -76,6 +85,15 @@ Decimal 15 = Hex F
 | Binary      | 2    | 0–1         | 1011    |
 | Octal       | 8    | 0–7         | 17      |
 | Hexadecimal | 16   | 0–9, A–F    | 2F      |
+
+5. type() - is to check the type of the variable
+6. id()   - is to check the address of the object
+7. print() - to print the value
+8. bin() - to convert from any base to binary
+9. oct() - to convert from any base to octal
+10. hex() - to convert from any base to hex decimal.
+
+
 
 
 Variable
