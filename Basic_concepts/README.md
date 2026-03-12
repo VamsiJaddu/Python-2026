@@ -5,6 +5,23 @@ pip - is a package manager
 "modules" are installed with the help of "pip".
 
 1.built in module - random , math , os , sys
+
+OS module:
+To print the contents of directory (files/folders)
+Example:
+import os
+path = "/home/user/Documents"
+for file in os.listdir(path): // for entry in os.scandir("."):
+    print(file)
+    
+sys module:
+A built-in Python module that provides access to variables and functions used by the Python interpreter to interact with the system
+Function	Use :
+sys.version -	Shows Python version
+sys.argv -	Command line arguments
+sys.exit() -	Exit program
+sys.path	- Module search path
+
 2.external module - flask , pyttsx3(speaks) ,  django , pandas
 
 Comments:
