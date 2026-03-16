@@ -16,7 +16,7 @@ for file in os.listdir(path): // for entry in os.scandir("."):
     
 sys module:
 A built-in Python module that provides access to variables and functions used by the Python interpreter to interact with the system
-Function	Use :
+Function Use :
 sys.version -	Shows Python version
 sys.argv -	Command line arguments
 sys.exit() -	Exit program
@@ -110,14 +110,28 @@ Decimal 15 = Hex F
 9. oct() - to convert from any base to octal
 10. hex() - to convert from any base to hex decimal.
 
+11.complex datatype:
+        c = a+bj
+          a---real part
+          b---imaginary part
+          j--- imaginary unit
+
+12.string:
+    str = "" or '' ---> single 
+    str = '''  
+            multiple line 
+           '''
+13. slicing:
+   str = "python" 
+
+     -6-5-4-3-2-1
+      p y t h o n
+      0 1 2 3 4 5
+   >>>str[0] p
+   >>>str[:] python
+   >>>str[0:40] python
+   >>>str[1:] ython
+   >>>str[:4] pyth
 
 
 
-Variable
-Data Types
-Conditionals
-Typecasting
-Exceptions
-Functions
-List,Tuples,Sets
-Dictionaries
