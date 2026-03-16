@@ -121,6 +121,7 @@ Decimal 15 = Hex F
     str = '''  
             multiple line 
            '''
+           
 13. slicing:
    str = "python" 
 
@@ -132,6 +133,8 @@ Decimal 15 = Hex F
    >>>str[0:40] python
    >>>str[1:] ython
    >>>str[:4] pyth
+
+14.
 
 
 
