@@ -134,7 +134,38 @@ Decimal 15 = Hex F
    >>>str[1:] ython
    >>>str[:4] pyth
 
-14.
+14. fundamental Datatypes and Immutable:  
+       Python uses Integer Interning (Caching)
+       Python reuses memory for small integers (typically from -5 to 256)
+       No caching for complex numbers
+          a = 10
+          b = 10
+          id(a)  → same    (id == function)
+          id(b)  → same
+          a is b → True  (is = operator)
+    // Python stores only one object 10 in memory. Both a and b point to the same memory location.
 
+15. Byte data type:
+      x = [10 , 20, 30 , 40]
+      bytes(x)
+      b = bytes([10, 20, 30, 40])
+      bytes() converts a list of integers → bytes object . Each value must be in range 0 to 255   
+      x = [10, 20, 30, 40]
+      b = bytes(x)
+        type(b)        # bytes
+        print(b[0])    # 10
+        print(b[-1])   # 40
+        for i in b:
+            print(i) : o/p : 10 20 30 40
+      Once we creates bytes data type value, we cannot change its values,otherwise we will get TypeError.
 
+16. Bytearray data type :
+       bytearray is exactly same as bytes data type except that its elements can be modified.
+        x = [10, 20, 30, 40]
+        b = bytearray(x)
+        print(b[0])    # 10
+        print(b[-1])   # 40
+        b[0] = 100
+        for i in b:
+            print(i) : o/p : 100 20 30 40    
 
