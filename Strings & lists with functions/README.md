@@ -20,3 +20,6 @@ Strings with functions.
 * str.find("word") o/p: prints index of 1st preference
    he's from hyd and his neighbour also from hyd.
 * str.count("from") o/p: 2
+
+
+Lists with functions:
