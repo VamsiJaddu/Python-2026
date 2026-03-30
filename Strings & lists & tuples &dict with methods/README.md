@@ -39,4 +39,36 @@ tuple with functions:
    print(type(tup)) ..tuple
    tup =(1 ,3 ,5 ,6 , 5)
  * tup.index(element) //tup.index(6)  o/p:3
- * tup.count(elemrnt) //tup.count(5) o/p:2  
+ * tup.count(elemrnt) //tup.count(5) o/p:2
+
+Dictionaries with function methods:
+
+   student = {
+       "name" : "Ranger",
+        "subjects" : {
+               "phy" : 86 ,
+               "chem" : 90 ,
+               },
+         "age" : 18
+    }
+ * student.keys() o/p: dict_keys(["name" , "subjects" ])
+
+ * list(student.keys()) o/p:["name" , "subjects" ]
+ * list(student.values()) o/p: ["Ranger" , { 'phy': 86 ,'chem' : 90}]
+ * student.items() o/p: ('name', 'Ranger'),('subjects',{'phy': 86 ,'chem' : 90}) // return tuples
+ * print(student["name"]) o/p: Ranger
+   print(student.get("`name")) o/p: Ranger
+ * print(student["name2"]) o/p: error
+   print(student.get("`name2")) o/p: none
+ * student.update({"grade" : "A"}) 
+   o/p: student = {
+       "name" : "Ranger",
+        "subjects" : {
+               "phy" : 86 ,
+               "chem" : 90 ,
+               },
+         "age" : 18 ,
+         "grade" : "A"
+         
+    }
+
