@@ -12,4 +12,13 @@
        a = int(a) /// float(a)
        c = a + b o/p: 5.14
 
+3.Input: Input value is always a string.
+       input("")
+       a = input("enter number :")
+       print(type(a)) o/p: str
+      a= int(input("enter a number :" )
+      print(type(a)) o/p: interger
+
+      
+  
      
