@@ -23,3 +23,10 @@ Strings with functions.
 
 
 Lists with functions:
+
+   list = [ 1,3 ,9, 5, 7]
+* list.append(4)  add 4
+* list.sort()     asecending order
+* list.sort(reverse=true) desceding order
+* list.reverse() reverse order
+* list.insert(index, ele) list.insert(1,0) o/p: [1 ,0 ,3,9 ,5, 7]
