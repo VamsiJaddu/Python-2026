@@ -32,3 +32,11 @@ Lists with functions:
 * list.insert(index, ele) list.insert(1,0) o/p: [1 ,0 ,3,9 ,5, 7]
 * list.remove(element)
 * list.pop(index)
+
+tuple with functions:
+
+   tup =(1 ,)
+   print(type(tup)) ..tuple
+   tup =(1 ,3 ,5 ,6 , 5)
+ * tup.index(element) //tup.index(6)  o/p:3
+ * tup.count(elemrnt) //tup.count(5) o/p:2  
