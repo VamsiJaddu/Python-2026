@@ -5,7 +5,7 @@ age = 23
 price = 12.5
 
 print("name") ----o/p: name ...wrong
-printname) ---o/p:Ganesh
+print(name) ---o/p:Ganesh
 print(name , age) ---o/p: Ganesh 23
 print("my Name is :" , name) ---my Name is : Ganesh
 
