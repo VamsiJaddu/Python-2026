@@ -14,7 +14,9 @@ Strings with functions.
 * str = str.captialize()
     print(str) o/p: Ganesh
 * str = str.endswith("esh")
-    print(str) o/p:Ganesh
-* str.replace(old,new)
-* str.find()
-* str.count()
+    print(str) o/p:true
+  str = "this is a book"
+* str.replace("book","pen") o/p: this is a pen
+* str.find("word") o/p: prints index of 1st preference
+   he's from hyd and his neighbour also from hyd.
+* str.count("from") o/p: 2
