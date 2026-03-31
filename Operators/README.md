@@ -18,9 +18,7 @@ Bitwise operatory: ( & , | , ^ , ~ , << ,>>)
  ~n --> -(n+1)
  5 << 2 o/p: 20
  << --> (a << n = a * (2**n)) 
- >> --> (a >> n = a // (2**n))
-
-
+ >> --> a >> n = a // (2**n)
 Ternay operatory:
   min = a if a<b else b
   print ("min :",min)
