@@ -15,10 +15,11 @@ Bitwise operatory: ( & , | , ^ , ~ , << ,>>)
     101
   ^ 011
     110
+ ~n --> -(n+1)
+ 5 << 2 o/p: 20
+ << --> (a << n = a * (2**n)) 
+ >> --> (a >> n = a // (2**n))
 
-  ~n → -(n+1)
-<< → multiply by 2 (a << n = a * (2power(n)))
->> → divide by 2  (a >> n = a // (2power(n)))
 
 Ternay operatory:
   min = a if a<b else b
