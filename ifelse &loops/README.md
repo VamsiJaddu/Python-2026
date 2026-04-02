@@ -32,22 +32,27 @@ for loop:
     for el in num:
       print(el)
 
-    num = [1, 2, 3, 4, 2]
-# idx = 0
-# for el in num:
-#     if el == 4:
-#        print( "idx", idx)
-#        break
-#     idx +=1
-# else:
-#     print("end")    
+num = [1, 2, 3, 4, 2]
+idx = 0
+for el in num:
+     if el == 4:
+        print( "idx", idx)
+        break
+     idx +=1
+ else:
+    print("end")    o/p: idx 3 
 
 num = [1, 2, 3, 4, 5]
 for el in num:
     print(el)
 else:
-    print("end") 
-     
+    print("end")  o/p:1 2 3 4 5 end
+
+ Pass statement: when we want skip that code and working on another function.
+
+  if i < 5:
+     pass
+   print("hello")  
     
 
    
