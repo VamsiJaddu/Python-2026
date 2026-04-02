@@ -23,4 +23,31 @@ while loop: it prints untill condition is true.
 while (condition):
   print("")
 
-Break:
+Break: it breaks the loop when the idf condition is true.
+
+continue : it jums the current itrtation , when the if condition is true.
+
+for loop:
+    num = [1 ,2 , 3 , 4, 2]
+    for el in num:
+      print(el)
+
+    num = [1, 2, 3, 4, 2]
+# idx = 0
+# for el in num:
+#     if el == 4:
+#        print( "idx", idx)
+#        break
+#     idx +=1
+# else:
+#     print("end")    
+
+num = [1, 2, 3, 4, 5]
+for el in num:
+    print(el)
+else:
+    print("end") 
+     
+    
+
+   
