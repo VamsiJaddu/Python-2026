@@ -1,6 +1,10 @@
 Strings with functions.
 
    str = "ganesh"
+   print(f"My name is {str}")
+   print("My name is :", str)
+   print("My name is {0}".format(str))
+   print("My name is %s" %str)  
    str = 'ganesh'
    str = ''' ganesh '''
 * len(str) ----length of string
