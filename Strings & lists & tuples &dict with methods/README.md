@@ -44,8 +44,10 @@ tuple with functions:
    tup =(1 ,3 ,5 ,6 , 5)
  * tup.index(element) //tup.index(6)  o/p:3
  * tup.count(elemrnt) //tup.count(5) o/p:2
- * sorted(t)
- * sorted(t , reverse=true)
+ * sorted(tup)
+ * sorted(tup , reverse=true)
+ * min(tup)
+ * max(tup)
 
 Dictionaries with function methods:
 
