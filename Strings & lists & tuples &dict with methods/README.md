@@ -79,4 +79,14 @@ Dictionaries with function methods:
          "grade" : "A"
          
     }
+set with functions methods:
 
+set = { 1, 5 ,20 , 45 , 65 , 45}
+Here duplicates are removed 
+print(set) o/p: {1 , 5 , 20 , 45 ,65}
+set = {} ---  empty dictionary
+s = set() --- empty set
+set.add(10) o/p: {1 , 5 , 10 , 20 , 45 ,65}
+set.pop() o/p:{ 1, 10 ,20 , 45 , 65}  
+set.remove(20) o/p: { 1, 10 , 45 , 65}
+set.update(range(6)) o/p:  { 0 , 1, 2, 3, 4, 5 ,10 , 45 , 65}
