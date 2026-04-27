@@ -91,3 +91,6 @@ set.add(10) o/p: {1 , 5 , 10 , 20 , 45 ,65}
 set.pop() o/p:{ 1, 10 ,20 , 45 , 65}  
 set.remove(20) o/p: { 1, 10 , 45 , 65}
 set.update(range(6)) o/p:  { 0 , 1, 2, 3, 4, 5 ,10 , 45 , 65}
+s = {18 , "18"}
+s = {20 ,20.0, "20"}  o/p: {20 , "20"} 
+here 20 == 20.0 In python assignment operator checks values not datatypes  
