@@ -79,6 +79,7 @@ Dictionaries with function methods:
          "grade" : "A"
          
     }
+   
 set with functions methods:
 
 set = { 1, 5 ,20 , 45 , 65 , 45}
