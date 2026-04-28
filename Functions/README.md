@@ -126,12 +126,6 @@ Eg: from functools import *
  from functools import *   
  result=reduce(lambda x,y:x+y,range(1,101))   
  print(result)   #5050   
-                                                                       
- 
-18 DURGASOFT, # 202, 2nd Floor, HUDA Maitrivanam, Ameerpet, Hyderabad - 500038,  
- 040 – 64 51 27 86, 80 96 96 96 96, 92 46 21 21 43 | www.durgasoft.com 
- 
- 
 Note: 
- In Python every thing is treated as object. 
- Even functions also internally treated as objects only.
+ In Python every thing is treated as object. 
+ Even functions also internally treated as objects only.
