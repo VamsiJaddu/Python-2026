@@ -129,3 +129,63 @@ Eg: from functools import *
 Note: 
  In Python every thing is treated as object. 
  Even functions also internally treated as objects only.
+
+
+ *args ---- multiples values in tuples
+ **kwargs ---- stores values in dictionary
+
+ def f1(a, *args, **kwargs):
+    print(a)
+    print(args)
+    
+ for key, value in kwargs.items():
+        print(key, "=", value)
+
+f1(10, 20, 30, x=100, y=200)
+
+ Decor function :
+# this function is used to add some more functionality 
+# to the existing function by creatinng new function.
+
+
+
+# this function is for swapping of numbers .
+def smart_div(func):
+    def inner(a , b):
+        if a<b:
+            a ,b = b,a
+            return func(a ,b)
+    return inner
+@smart_div
+def div(a,b):
+    print(a / b)
+
+div(4 , 20) 
+
+ Generator function:
+
+# In Generator function yield statement is used to iterate the values.
+
+# Generator function which returns generator object , which is used to generate the values as long as you iterate.
+
+def generator():
+    i=0
+    n=int(input("enter number: "))
+    while i<=n:
+        yield i 
+        i+=1
+
+gen =generator()
+
+# only one iteration as per your request
+
+#print(next(gen))
+
+# full iteration:
+
+for j in gen:
+    print(j)
+      
+      
+
+     
