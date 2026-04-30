@@ -1,1 +1,1 @@
-Class are blueprint of objects.
+Class are blueprint for creating objects.
