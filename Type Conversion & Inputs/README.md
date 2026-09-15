@@ -20,5 +20,9 @@
       print(type(a)) o/p: interger
 
       
+  bol("") - False
+  bol(None) - False
+  bol(" ") - True
+  bol(0.0) - False
   
      
