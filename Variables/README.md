@@ -25,7 +25,7 @@ o/p: a = 10
      b = 5
 
 
-round(sum , 2) --- it gives a value in float with .2 digits
+round(sum , 2) --- it gives a value in float with .2 digits o/p : 75.02
 pow(2,3) --- 2**3 = 8
 abs(-5) --- 5 5 digits from zero
 min(list)
