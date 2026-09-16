@@ -23,7 +23,13 @@ b = 10
 a, b = b, a  
 o/p: a = 10
      b = 5
+escape sequence:
 
+\n -nextline/new
+\t - tab(space)
+\' or \" -quotes in btwn lines
+\\ - backslash
+\
 
 round(sum , 2) --- it gives a value in float with .2 digits o/p : 75.02
 pow(2,3) --- 2**3 = 8
