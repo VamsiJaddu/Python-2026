@@ -23,3 +23,10 @@ b = 10
 a, b = b, a  
 o/p: a = 10
      b = 5
+
+
+round(sum , 2) --- it gives a value in float with .2 digits
+pow(2,3) --- 2**3 = 8
+abs(-5) --- 5 5 digits from zero
+min(list)
+max(list)
