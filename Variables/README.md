@@ -37,3 +37,26 @@ abs(-5) --- 5 5 digits from zero
 min(list)
 max(list)
 strip() -- removes space from string
+replace(old,new, count) -- it replace into new and if there is char/word more than 1 it will replace  all.
+    s1 = "learning python"
+    print(s1)
+    print(s1.replace("python", "java")
+    o/p: learning java
+count() --counts occurance of substring in mainstring (char/word)
+string.count(substring)
+    s1 ="we are learning python. python is fun."
+    s2 = "python"
+    print(s1.count(s2))
+    o/p : 2
+startswith() --
+string.startswith(substring)
+    o/p: true/false
+endswith() --
+string.endswith(substring)
+    o/p: true/false
+upper(),lower(),title(),capitalize()
+    s1 ="we are learning python. python is fun."
+    s1.upper()  --- every char upper
+    s1.lower()  --- every char lower
+    s1.title()  --- only first char of every word
+    s1.capitalize() --- only first char at the line starting.
