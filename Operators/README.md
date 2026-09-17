@@ -35,3 +35,18 @@ is ----> checks memory location
  \'===>Single quote
  \"===>Double quote
  \\===>back slash symbol
+
+
+Membership operator: (in)
+s1 = "python is fun"
+print("python" in s1)
+o/p : true
+
+(not in)
+print("z" not in s1 )
+o/p: true
+
+repetition operator : *
+
+print(s1*3)
+o/p: python is funpython is funpython is fun
