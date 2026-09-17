@@ -68,6 +68,7 @@ Dictionaries with function methods:
  * print(student["name"]) o/p: Ranger
    print(student.get("`name")) o/p: Ranger
  * print(student["name2"]) o/p: error
+ * prinnt(student.pop("name") removes the name key value
    print(student.get("`name2",defaultvalue)) o/p: none //if default value is there it writes default value instead of none
  * student.update({"grade" : "A"}) 
    o/p: student = {
