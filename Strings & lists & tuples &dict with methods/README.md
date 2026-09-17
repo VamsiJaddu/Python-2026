@@ -30,6 +30,7 @@ Lists with functions:
 
    list = [ 1,3 ,9, 5, 7]
 * list.append(4)  add 4
+* list.extend([10,11,21])
 * list.sort()     asecending order
 * list.sort(reverse=true) desceding order
 * list.reverse() reverse order
