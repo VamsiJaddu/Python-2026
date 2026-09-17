@@ -104,5 +104,9 @@ union:
 s3 = s1.intersection(s2) // s1 | s2
 s3 = s1.intersection(s2, s4) // s1 | s2 | s4
 difference :
-days = {"mon" , ""}
+days = {"mon" , "Tue" ,"wed", "thu" ,"fri" , "sat" , "sun"}
+weekends = {"sat" , "sun"}
+weekdays = days - weekends
+weekdays = days.difference(weekends)
+
 
