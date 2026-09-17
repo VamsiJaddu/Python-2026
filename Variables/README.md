@@ -36,3 +36,4 @@ pow(2,3) --- 2**3 = 8
 abs(-5) --- 5 5 digits from zero
 min(list)
 max(list)
+strip() -- removes space from string
