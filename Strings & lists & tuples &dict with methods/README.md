@@ -81,7 +81,7 @@ Dictionaries with function methods:
          
     }
    
-set with functions methods:
+set with functions methods: sets are non sequential collection of items. and do not allow duplicates.
 
 set = { 1, 5 ,20 , 45 , 65 , 45}
 Here duplicates are removed 
@@ -90,8 +90,19 @@ set = {} ---  empty dictionary
 s = set() --- empty set
 set.add(10) o/p: {1 , 5 , 10 , 20 , 45 ,65}
 set.pop() o/p:{ 1, 10 ,20 , 45 , 65}  
-set.remove(20) o/p: { 1, 10 , 45 , 65}
+set.remove(20) o/p: { 1, 10 , 45 , 65} out of set number it gives ERROR.
+set.discard(45) o/p : {1,5,20,65}  it does not give error .
 set.update(range(6)) o/p:  { 0 , 1, 2, 3, 4, 5 ,10 , 45 , 65}
 s = {18 , "18"}
 s = {20 ,20.0, "20"}  o/p: {20 , "20"} 
 here 20 == 20.0 In python assignment operator checks values not datatypes  
+s1 ={"Biology", "Maths" , "english" , "chemistry"}
+s2 = {"physics", "French" , "maths" , "english" }
+Intersection: 
+s3 = s1.intersection(s2) // s1 & s2
+union:
+s3 = s1.intersection(s2) // s1 | s2
+s3 = s1.intersection(s2, s4) // s1 | s2 | s4
+difference :
+days = {"mon" , ""}
+
