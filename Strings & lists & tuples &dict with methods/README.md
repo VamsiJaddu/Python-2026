@@ -81,7 +81,8 @@ Dictionaries with function methods:
          "grade" : "A"
          
     }
-   
+
+   grociers = {"milk" : 80 , "sugar" : 98 , "milk" : 50 , "vegetables" : 200} o/p: will take milk :50  bcoz it reads from left to right.
 set with functions methods: sets are non sequential collection of items. and do not allow duplicates.
 
 set = { 1, 5 ,20 , 45 , 65 , 45}
