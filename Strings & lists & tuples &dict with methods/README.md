@@ -50,7 +50,7 @@ tuple with functions:
  * min(tup)
  * max(tup)
 
-Dictionaries with function methods:
+Dictionaries with function methods: in dictornaries lists and tuples are not suitable as keys. 
 
    student = {
        "name" : "Ranger",
